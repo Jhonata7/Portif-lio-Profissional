@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+
+
+}
+
+header {
+
+    background: linear-gradient(to right, blue, purple);
+    color: #e8e7ea;
+    padding: 1rem 0;
+    text-align: center;
+  
+}
+
+img{
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 42%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+#sobre {
+    background: #f4f4f4;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    background: #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.projeto h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 20px;
+}
+
+.copy{
+    background: linear-gradient(to right, purple,blue);
+
+}
