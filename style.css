@@ -61,7 +61,12 @@ nav ul li a {
 
 .projeto h3 {
   margin-top: 0;
+  font-size: 35px;
+  background: linear-gradient(to right, rgb(103, 103, 160), rgb(163, 79, 163));
+  color: whitesmoke;
+
 }
+
 
 footer {
   text-align: center;
@@ -136,6 +141,5 @@ body > div > img {
 
   .style-list {
     font-size: 25px !important;
-    background-color: aqua;
   }
 }
